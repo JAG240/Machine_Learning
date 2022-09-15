@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1634452534",
+        "python_version": "3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Jake\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\mlagents-learn --run-id=PreyTest1 --resume",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.0+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1634452539"
+    },
+    "total": 5.2757384,
+    "count": 1,
+    "self": 0.006190899999999999,
+    "children": {
+        "run_training.setup": {
+            "total": 0.07289009999999996,
+            "count": 1,
+            "self": 0.07289009999999996
+        },
+        "TrainerController.start_learning": {
+            "total": 5.1966574,
+            "count": 1,
+            "self": 0.0001926999999994905,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 5.1276541,
+                    "count": 1,
+                    "self": 5.1276541
+                },
+                "trainer_threads": {
+                    "total": 7.000000001866624e-07,
+                    "count": 1,
+                    "self": 7.000000001866624e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 0.06880990000000065,
+                    "count": 1,
+                    "self": 0.007107100000000699,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.06170279999999995,
+                            "count": 1,
+                            "self": 0.06170279999999995
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

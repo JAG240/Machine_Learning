@@ -1,0 +1,69 @@
+{
+    "MoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 248064,
+                "file_path": "results\\ppo\\MoveToGoal\\MoveToGoal-248064.onnx",
+                "reward": 1.0,
+                "creation_time": 1634444091.4616601,
+                "auxillary_file_paths": [
+                    "results\\ppo\\MoveToGoal\\MoveToGoal-248064.pt"
+                ]
+            },
+            {
+                "steps": 499999,
+                "file_path": "results\\ppo\\MoveToGoal\\MoveToGoal-499999.onnx",
+                "reward": 1.0,
+                "creation_time": 1634446002.6965678,
+                "auxillary_file_paths": [
+                    "results\\ppo\\MoveToGoal\\MoveToGoal-499999.pt"
+                ]
+            },
+            {
+                "steps": 500017,
+                "file_path": "results\\ppo\\MoveToGoal\\MoveToGoal-500017.onnx",
+                "reward": 1.0,
+                "creation_time": 1634446002.732098,
+                "auxillary_file_paths": [
+                    "results\\ppo\\MoveToGoal\\MoveToGoal-500017.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500017,
+            "file_path": "results\\ppo\\MoveToGoal.onnx",
+            "reward": 1.0,
+            "creation_time": 1634446002.732098,
+            "auxillary_file_paths": [
+                "results\\ppo\\MoveToGoal\\MoveToGoal-500017.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.0+cu110"
+    },
+    "PreyBrain": {
+        "checkpoints": [
+            {
+                "steps": 0,
+                "file_path": "results\\ppo\\PreyBrain\\PreyBrain-0.onnx",
+                "reward": null,
+                "creation_time": 1634453167.6706066,
+                "auxillary_file_paths": [
+                    "results\\ppo\\PreyBrain\\PreyBrain-0.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 0,
+            "file_path": "results\\ppo\\PreyBrain.onnx",
+            "reward": null,
+            "creation_time": 1634453167.6706066,
+            "auxillary_file_paths": [
+                "results\\ppo\\PreyBrain\\PreyBrain-0.pt"
+            ]
+        }
+    }
+}

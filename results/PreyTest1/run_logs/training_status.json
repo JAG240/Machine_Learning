@@ -1,0 +1,65 @@
+{
+    "PreyBrain": {
+        "checkpoints": [
+            {
+                "steps": 499942,
+                "file_path": "results\\PreyTest1\\PreyBrain\\PreyBrain-499942.onnx",
+                "reward": -0.5401069518716578,
+                "creation_time": 1634452401.2055237,
+                "auxillary_file_paths": [
+                    "results\\PreyTest1\\PreyBrain\\PreyBrain-499942.pt"
+                ]
+            },
+            {
+                "steps": 500006,
+                "file_path": "results\\PreyTest1\\PreyBrain\\PreyBrain-500006.onnx",
+                "reward": -0.5401069518716578,
+                "creation_time": 1634452401.2340474,
+                "auxillary_file_paths": [
+                    "results\\PreyTest1\\PreyBrain\\PreyBrain-500006.pt"
+                ]
+            },
+            {
+                "steps": 500006,
+                "file_path": "results\\PreyTest1\\PreyBrain\\PreyBrain-500006.onnx",
+                "reward": null,
+                "creation_time": 1634452442.8679707,
+                "auxillary_file_paths": [
+                    "results\\PreyTest1\\PreyBrain\\PreyBrain-500006.pt"
+                ]
+            },
+            {
+                "steps": 500006,
+                "file_path": "results\\PreyTest1\\PreyBrain\\PreyBrain-500006.onnx",
+                "reward": null,
+                "creation_time": 1634452503.108984,
+                "auxillary_file_paths": [
+                    "results\\PreyTest1\\PreyBrain\\PreyBrain-500006.pt"
+                ]
+            },
+            {
+                "steps": 500006,
+                "file_path": "results\\PreyTest1\\PreyBrain\\PreyBrain-500006.onnx",
+                "reward": null,
+                "creation_time": 1634452539.937698,
+                "auxillary_file_paths": [
+                    "results\\PreyTest1\\PreyBrain\\PreyBrain-500006.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500006,
+            "file_path": "results\\PreyTest1\\PreyBrain.onnx",
+            "reward": null,
+            "creation_time": 1634452539.937698,
+            "auxillary_file_paths": [
+                "results\\PreyTest1\\PreyBrain\\PreyBrain-500006.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

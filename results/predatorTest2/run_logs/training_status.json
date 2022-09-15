@@ -1,0 +1,65 @@
+{
+    "PredatorBrain": {
+        "checkpoints": [
+            {
+                "steps": 1706676,
+                "file_path": "results\\predatorTest2\\PredatorBrain\\PredatorBrain-1706676.onnx",
+                "reward": null,
+                "creation_time": 1634488804.2942157,
+                "auxillary_file_paths": [
+                    "results\\predatorTest2\\PredatorBrain\\PredatorBrain-1706676.pt"
+                ]
+            },
+            {
+                "steps": 1967661,
+                "file_path": "results\\predatorTest2\\PredatorBrain\\PredatorBrain-1967661.onnx",
+                "reward": -0.5,
+                "creation_time": 1634489026.0484264,
+                "auxillary_file_paths": [
+                    "results\\predatorTest2\\PredatorBrain\\PredatorBrain-1967661.pt"
+                ]
+            },
+            {
+                "steps": 1999982,
+                "file_path": "results\\predatorTest2\\PredatorBrain\\PredatorBrain-1999982.onnx",
+                "reward": -0.4782608695652174,
+                "creation_time": 1634489095.6459427,
+                "auxillary_file_paths": [
+                    "results\\predatorTest2\\PredatorBrain\\PredatorBrain-1999982.pt"
+                ]
+            },
+            {
+                "steps": 2499994,
+                "file_path": "results\\predatorTest2\\PredatorBrain\\PredatorBrain-2499994.onnx",
+                "reward": -0.3064516129032258,
+                "creation_time": 1634489471.0708916,
+                "auxillary_file_paths": [
+                    "results\\predatorTest2\\PredatorBrain\\PredatorBrain-2499994.pt"
+                ]
+            },
+            {
+                "steps": 2665109,
+                "file_path": "results\\predatorTest2\\PredatorBrain\\PredatorBrain-2665109.onnx",
+                "reward": -0.25380710659898476,
+                "creation_time": 1634489595.2992551,
+                "auxillary_file_paths": [
+                    "results\\predatorTest2\\PredatorBrain\\PredatorBrain-2665109.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2665109,
+            "file_path": "results\\predatorTest2\\PredatorBrain.onnx",
+            "reward": -0.25380710659898476,
+            "creation_time": 1634489595.2992551,
+            "auxillary_file_paths": [
+                "results\\predatorTest2\\PredatorBrain\\PredatorBrain-2665109.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

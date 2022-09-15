@@ -1,0 +1,56 @@
+{
+    "PredatorBrain": {
+        "checkpoints": [
+            {
+                "steps": 0,
+                "file_path": "results\\predatorTest1\\PredatorBrain\\PredatorBrain-0.onnx",
+                "reward": null,
+                "creation_time": 1634485719.2535603,
+                "auxillary_file_paths": [
+                    "results\\predatorTest1\\PredatorBrain\\PredatorBrain-0.pt"
+                ]
+            },
+            {
+                "steps": 469029,
+                "file_path": "results\\predatorTest1\\PredatorBrain\\PredatorBrain-469029.onnx",
+                "reward": -1.0,
+                "creation_time": 1634485876.2017376,
+                "auxillary_file_paths": [
+                    "results\\predatorTest1\\PredatorBrain\\PredatorBrain-469029.pt"
+                ]
+            },
+            {
+                "steps": 476687,
+                "file_path": "results\\predatorTest1\\PredatorBrain\\PredatorBrain-476687.onnx",
+                "reward": null,
+                "creation_time": 1634486027.9506438,
+                "auxillary_file_paths": [
+                    "results\\predatorTest1\\PredatorBrain\\PredatorBrain-476687.pt"
+                ]
+            },
+            {
+                "steps": 486960,
+                "file_path": "results\\predatorTest1\\PredatorBrain\\PredatorBrain-486960.onnx",
+                "reward": null,
+                "creation_time": 1634486219.6571763,
+                "auxillary_file_paths": [
+                    "results\\predatorTest1\\PredatorBrain\\PredatorBrain-486960.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 486960,
+            "file_path": "results\\predatorTest1\\PredatorBrain.onnx",
+            "reward": null,
+            "creation_time": 1634486219.6571763,
+            "auxillary_file_paths": [
+                "results\\predatorTest1\\PredatorBrain\\PredatorBrain-486960.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}
